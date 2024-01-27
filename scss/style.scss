@@ -1,0 +1,289 @@
+ul,
+li {
+    list-style: none;
+    display: inline-block;
+    word-spacing: 42px;
+}
+
+.body {
+    font-family: Roboto;
+    margin: 0 auto;
+    max-width: 1920px;
+
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.first-section {
+    background-color: #EEEFF1;
+    height: 700px;
+
+}
+
+.header {
+    margin-left: 400px;
+
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.first-screen {
+    &__menu {
+
+        margin-left: 360px;
+        padding-top: 80px;
+        size: 16px;
+        line-height: 26.25px;
+        font-weight: 400;
+        border: 1px solid transparent;
+    }
+
+    &__button {
+        background: #34547A;
+        color: #EEEFF1;
+        width: 225px;
+        height: 65px;
+        margin: 65px 0px 140px 400px;
+        &:hover{
+            background-color: red;
+            border: none;
+            color: #000;
+            font-size: 15px;
+            
+        }
+    }
+}
+
+.about-me {
+
+    height: 150px;
+    margin: 112px 690px 100px 690px;
+}
+.about-me__wrapper{
+    width: 800px;
+}
+
+.header2 {
+    size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+.header3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+.text2 {
+    text-align: center;
+    font-weight: 400;
+    size: 16px;
+    color: #727272;
+}
+
+.numb__wrapper{
+    margin: 0 auto;
+}
+
+.numb {
+    background-color: #34547A;
+  
+    height: 250px;
+
+    &__item {
+        margin-left: 400px;
+    }
+
+    &__item1 {
+        margin-left: 50px;
+    }
+
+    &__img {
+        display: inline-block;
+        margin-top: 100px;
+    }
+
+    &__p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    &__h3 {
+        font-size: 21px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: -5px;
+    }
+
+    &__text {
+        display: inline-block;
+        margin: 80px 30px 0px 20px;
+        vertical-align: top;
+    }
+}
+
+
+
+.video {
+   
+    height: 1000px;
+    margin-top: 100px;
+}
+
+.vidos {
+    margin: 60px 400px 100px 400px;
+}
+
+.footer {
+    background-color: #34547A;
+    height: 150px;
+
+    &__text {
+        margin: 50px 0px 80px 400px;
+    }
+
+    &__h3 {
+        display: inline-flex;
+        font-size: 21px;
+        font-weight: 500;
+        color: #fff;
+        align-items: center;
+    }
+
+    &__p {
+        display: inline-flex;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1536px){
+    
+    .first-section {
+    // margin: 0 auto;
+    }
+    
+    .header {
+        margin-left: 560px;
+
+    }
+    
+    .text {
+        font-size: 24px;
+        text-align: left;
+        margin-left: 400px;
+    }
+    .first-screen {
+        &__menu {
+    font-size: 20px;
+            margin-left: 320px;}
+
+            &__button {
+
+                margin: 65px 0px 140px 600px;
+        }
+    }
+    .about-me {
+        font-size: 20px;
+        margin: 112px 690px 100px 330px;
+    }
+    .numb{
+        &__item {
+            margin-left: 150px;
+        }
+    }
+    .video {
+        margin-left: -20px;
+    }
+    .vidos {
+        margin-left: 220px;
+    }
+    .footer {
+    
+        &__text {
+            margin: 50px 0px 80px 400px;
+        }
+}
+.header2 {
+    // font-size: 32px;
+
+}
+
+.text2 {
+    font-size: 24px;
+}
+}
+@media only screen and (max-width: 1280px){
+            
+            .first-section {
+
+            margin: 0 auto;
+            }
+            
+            .header {
+                margin-left: 450px;
+        
+            }
+            
+            .text {
+                font-size: 24px;
+                text-align: left;
+                margin-left: 250px;
+            }
+            .first-screen {
+                &__menu {
+            font-size: 24px;
+                    margin-left: 200px;}
+        
+                    &__button {
+        
+                        margin: 65px 0px 140px 530px;
+                }
+            }
+            .about-me {
+                font-size: 24px;
+                margin: 112px 690px 100px 240px;
+            }
+            .numb{
+                &__item {
+                    margin-left: 25px;
+                }
+            }
+            .video {
+                margin-left: 30px;
+            }
+            .vidos {
+                margin-left: 50px;
+            }
+            .footer {
+            
+                &__text {
+                    margin: 50px 1300px 80px 400px;
+                }
+        }
+        .header2 {
+            size: 38px;
+
+        }
+        
+        .text2 {
+            size: 24px;
+        }
+}
